@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voter Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Voter Registration</h2>
+    <form action="/login.html" method="post" enctype="multipart/form-data">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="voterid">Voter ID</label>
+      <input type="text" id="voterid" name="voterid" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="photo">Upload ID Proof</label>
+      <input type="file" id="photo" name="photo" accept="image/*" required>
+
+      <label for="face">Upload Face Image</label>
+      <input type="file" id="face" name="face" accept="image/*" required>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
