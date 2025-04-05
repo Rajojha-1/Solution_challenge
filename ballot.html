@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ballot Selection</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Select Your Candidate</h2>
+    <form action="/verify.html" method="post">
+      <label>
+        <input type="radio" name="candidate" value="candidate1" required />
+        John Doe - Party A
+      </label>
+
+      <label>
+        <input type="radio" name="candidate" value="candidate2" />
+        Jane Smith - Party B
+      </label>
+
+      <label>
+        <input type="radio" name="candidate" value="candidate3" />
+        Alex Johnson - Party C
+      </label>
+
+      <button type="submit">Cast Vote</button>
+    </form>
+  </div>
+</body>
+</html>
